@@ -8,7 +8,7 @@
 
     <div class="row mb-3">
         <div class="col-md-3">
-            <img src="images/shoe/Air Jordan 10 Retro1_1.png" alt="" class="img-fluid" />
+            <img src="images/shoe/Air Jordan XXXIV PF4.png" alt="" class="img-fluid" />
         </div>
         <div class="col-md-9" style="border-bottom: 1px solid #ccc;">
             <div>
@@ -21,7 +21,7 @@
 
     <div class="row mb-3">
         <div class="col-md-3">
-            <img src="images/shoe/Kobe AD NXT FF1_1.png" alt="" class="img-fluid" />
+            <img src="images/shoe/Kobe IV Protro4.png" alt="" class="img-fluid" />
         </div>
         <div class="col-md-9" style="border-bottom: 1px solid #ccc;">
             <div>
@@ -36,7 +36,7 @@
 
     <div class="row mb-3">
         <div class="col-md-3">
-            <img src="images/shoe/LeBron X JE Icon QS1.png" alt="" class="img-fluid" />
+            <img src="images/shoe/Kyrie 6 EP4.png" alt="" class="img-fluid" />
         </div>
         <div class="col-md-9" style="border-bottom: 1px solid #ccc;">
             <div>
@@ -50,7 +50,7 @@
 
     <div class="row mb-3">
         <div class="col-md-3">
-            <img src="images/shoe/Nike Air Max 720OBJ1_1.png" alt="" class="img-fluid" />
+            <img src="images/shoe/Nike Air Zoom Pegasus 36 Shield.png" alt="" class="img-fluid" />
         </div>
         <div class="col-md-9" style="border-bottom: 1px solid #ccc;">
             <div>
@@ -65,7 +65,7 @@
 
     <div class="row mb-3">
         <div class="col-md-3">
-            <img src="images/shoe/Nike Air Zoom Pegasus 361_1.png" alt="" class="img-fluid" />
+            <img src="images/shoe/Nike Joyride Run FK AW2.png" alt="" class="img-fluid" />
         </div>
         <div class="col-md-9" style="border-bottom: 1px solid #ccc;">
             <div>
