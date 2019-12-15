@@ -88,8 +88,8 @@ public partial class addNew : System.Web.UI.UserControl
         xiang4_path = "images/shoe/" + xiang4;
 
 
-        string sql = string.Format("insert into 商品 (名称,介绍,种类,类型,价格,颜色,色值,代码编号,图片,下架,下架文字) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}')", txtShoeName.Text, txtShoeInfo.Text,ddl.SelectedItem.Text,txtShoeType.Text, Convert.ToInt32(txtShoePrice.Text), txtShoeColor.Text, Convert.ToInt32(txtShoeColorNum.Text), txtShoeStyle.Text, fengmian_path
-            , null, "查看详情");
+        string sql = string.Format("insert into 商品 (名称,介绍,种类,类型,价格,颜色,色值,代码编号,图片,时间) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}')", txtShoeName.Text, txtShoeInfo.Text,ddl.SelectedItem.Text,txtShoeType.Text, Convert.ToInt32(txtShoePrice.Text), txtShoeColor.Text, Convert.ToInt32(txtShoeColorNum.Text), txtShoeStyle.Text, fengmian_path
+            ,DateTime.Now.ToString("yyyy-MM-dd"));
 
         try
         {

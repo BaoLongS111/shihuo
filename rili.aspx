@@ -4,77 +4,67 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
-    <h4 class="text-muted mb-3 mt-3">2019-10-3</h4>
-
-    <div class="row mb-3">
-        <div class="col-md-3">
-            <img src="images/shoe/Air Jordan XXXIV PF4.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col-md-9" style="border-bottom: 1px solid #ccc;">
-            <div>
-                <h5 class="float-left">Air Jordan 10 Retro1</h5>
-                <h6 class="text-muted float-right">¥1399</h6>
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/Kobe IV Protro3.png" class="d-block w-100" alt="..."/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Kobe IV Protro</h5>
+                        <p>Kobe IV Protro 篮球鞋采撷 2007 元年款的经典设计，以出众性能焕新演绎。忠实再现令人难忘的出众美学，革新设计造就响应灵敏的性能和顺畅平稳的舒适步履体验。</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Kobe IV Protro1.png" class="d-block w-100" alt="..."/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Kobe IV Protro</h5>
+                        <p>Kobe IV Protro 篮球鞋采撷 2007 元年款的经典设计，以出众性能焕新演绎。忠实再现令人难忘的出众美学，革新设计造就响应灵敏的性能和顺畅平稳的舒适步履体验。</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Kobe IV Protro2.png" class="d-block w-100" alt="..."/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Kobe IV Protro</h5>
+                        <p>Kobe IV Protro 篮球鞋采撷 2007 元年款的经典设计，以出众性能焕新演绎。忠实再现令人难忘的出众美学，革新设计造就响应灵敏的性能和顺畅平稳的舒适步履体验。</p>
+                    </div>
+                </div>
             </div>
-            <div class="clearfix"></div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
 
-    <div class="row mb-3">
-        <div class="col-md-3">
-            <img src="images/shoe/Kobe IV Protro4.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col-md-9" style="border-bottom: 1px solid #ccc;">
-            <div>
-                <h5 class="float-left">Kobe AD NXT FF1</h5>
-                <h6 class="text-muted float-right">¥1399</h6>
+
+    <asp:Repeater runat="server" ID="rep">
+        <ItemTemplate>
+            <h4 class="text-muted mb-3 mt-3"><%#Eval("时间") %></h4>
+
+            <div class="row mb-3">
+                <div class="col-md-3">
+                    <img src='<%#Eval("图片") %>' alt="" class="img-fluid" />
+                </div>
+                <div class="col-md-9" style="border-bottom: 1px solid #ccc;">
+                    <div>
+                        <h5 class="float-left"><%#Eval("名称") %></h5>
+                        <h6 class="text-muted float-right">¥<%#Eval("价格") %></h6>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
             </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
+        </ItemTemplate>
+    </asp:Repeater>
 
-    <h4 class="text-muted mb-3 mt-3">2019-10-2</h4>
-
-    <div class="row mb-3">
-        <div class="col-md-3">
-            <img src="images/shoe/Kyrie 6 EP4.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col-md-9" style="border-bottom: 1px solid #ccc;">
-            <div>
-                <h5 class="float-left">LeBron X JE Icon QS</h5>
-                <h6 class="text-muted float-right">¥1699</h6>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-
-
-    <div class="row mb-3">
-        <div class="col-md-3">
-            <img src="images/shoe/Nike Air Zoom Pegasus 36 Shield.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col-md-9" style="border-bottom: 1px solid #ccc;">
-            <div>
-                <h5 class="float-left">Nike Air Max 720OBJ1</h5>
-                <h6 class="text-muted float-right">¥1499</h6>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-
-    <h4 class="text-muted mb-3 mt-3">2019-10-1</h4>
-
-    <div class="row mb-3">
-        <div class="col-md-3">
-            <img src="images/shoe/Nike Joyride Run FK AW2.png" alt="" class="img-fluid" />
-        </div>
-        <div class="col-md-9" style="border-bottom: 1px solid #ccc;">
-            <div>
-                <h5 class="float-left">Nike Air Zoom Pegasus 361</h5>
-                <h6 class="text-muted float-right">¥1599</h6>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
 
 </asp:Content>
 

@@ -15,7 +15,7 @@
         <ItemTemplate>
             <div class="row p-3">
                 <div class="col-md-1">
-                    <img src="images/img.jpg" alt="" class="img-thumbnail rounded-circle" width="70" height="70" />
+                    <img src='<%#Eval("头像") %>' alt="" class="rounded-circle" width="60" height="60" />
                 </div>
                 <div class="col-md-11" style="border-bottom: 1px solid #ccc;">
                     <h6><span class="text-danger"><%# Eval("用户名") %>：</span><span style="color: #000;"><%# Eval("内容") %></span></h6>

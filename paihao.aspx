@@ -6,7 +6,6 @@
 
     <h4 class="text-center mt-3 mb-3">开奖时间:2020-2-14</h4>
 
-
     <img src="images/shoe/Nike Air Zoom Pegasus 36 Shield.png" alt="" class="img-fluid" />
 
     <p class="text-muted mt-2">Air Jordan 10 Retro1 迷彩色</p>

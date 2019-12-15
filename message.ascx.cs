@@ -47,7 +47,7 @@ public partial class message : System.Web.UI.UserControl
 
     private void DataListBind()
     {
-        string sql = "select * from 发帖";
+        string sql = "select * from 发帖 inner join 用户表 on 发帖.用户名=用户表.用户名";
         DataSet ds = db.GetDataSetBySql(sql);
         if (ds.Tables[0].Rows.Count > 0)
         {
